@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.register {
+
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, transparent 0%, black 100%),
+        url("https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+    height: 40px;
+}
+
+.top>.wrapper {
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top>.container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.top>.container>h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.top>.container>h2 {
+    font-size: 30px;
+}
+
+.top>.container>p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.loginbtn {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: red;
+    font-weight: bold;
+    height: 40px;
+    width: 70px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.input {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rinput {
+    color: grey;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid white;
+    background: rgba(24, 24, 24, 0.4);
+    height: 50px;
+    width: 40%;
+}
+
+.registerbtn {
+    height: 55px;
+    width: 180px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: red;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
